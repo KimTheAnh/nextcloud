@@ -271,6 +271,7 @@ export default Vue.extend({
 
 		linkAttrs() {
 			if (this.enabledDefaultActions.length > 0) {
+				console.log(this)
 				const action = this.enabledDefaultActions[0]
 				const displayName = action.displayName([this.source], this.currentView)
 				return {
