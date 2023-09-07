@@ -12,7 +12,6 @@
  */
 
 /* global dragOptions, folderDropOptions, OC */
-console.log('aaaaa')
 (function() {
 
 	if (!OCA.Files) {

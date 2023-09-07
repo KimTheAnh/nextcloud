@@ -1690,7 +1690,7 @@
 
 			// filename td
 			td = $('<td class="filename"></td>');
-
+			console.log('aaaaa')
 
 			var spec = this.fileActions.getDefaultFileAction(mime, type, permissions);
 			// linkUrl
