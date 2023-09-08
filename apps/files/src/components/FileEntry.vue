@@ -149,6 +149,7 @@ import logger from '../logger.js'
 
 // The registered actions list
 const actions = getFileActions()
+console.log(actions)
 
 export default Vue.extend({
 	name: 'FileEntry',
