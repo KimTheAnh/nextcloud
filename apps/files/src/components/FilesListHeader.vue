@@ -108,6 +108,7 @@ export default Vue.extend({
 	setup() {
 		const filesStore = useFilesStore()
 		const selectionStore = useSelectionStore()
+		console.log(this);
 		return {
 			filesStore,
 			selectionStore,

@@ -38,7 +38,6 @@ p($theme->getTitle());
 
 	<header id="header">
 		<div class="header-left">
-			<div>aaaaaaaaaaaa</div>
 			<div class="logo logo-icon svg"></div>
 			<span id="nextcloud" class="header-appname">
 				<?php if (isset($template) && $template->getHeaderTitle() !== '') { ?>

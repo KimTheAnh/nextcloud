@@ -418,7 +418,6 @@ export default Vue.extend({
 	 * The row is mounted once and reused as we scroll.
 	 */
 	mounted() {
-		console.log(this);
 		// ⚠ Init the debounce function on mount and
 		// not when the module is imported  to
 		// avoid sharing between recycled components
