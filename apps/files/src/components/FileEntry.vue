@@ -36,6 +36,7 @@
 			<a ref="name" v-bind="linkAttrs" @click="execDefaultAction">
 				<!-- Icon or preview -->
 				<span class="files-list__row-icon">
+					aaaa
 					<FolderIcon v-if="source.type === 'folder'" />
 
 					<!-- Decorative image, should not be aria documented -->
@@ -60,7 +61,6 @@
 
 				<!-- File name -->
 				<span class="files-list__row-name-text">
-					a
 					<!-- Keep the displayName stuck to the extension to avoid whitespace rendering issues-->
 					<span class="files-list__row-name-name" v-text="displayName" />
 					<span class="files-list__row-name-ext" v-text="source.extension" />
