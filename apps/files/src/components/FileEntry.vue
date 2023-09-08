@@ -149,7 +149,9 @@ import logger from '../logger.js'
 
 // The registered actions list
 const actions = getFileActions()
-
+actions.forEach(e => {
+	console.log(e)
+});
 export default Vue.extend({
 	name: 'FileEntry',
 
@@ -608,7 +610,6 @@ export default Vue.extend({
 		formatFileSize,
 	},
 })
-console.log(this)
 </script>
 
 <style scoped lang='scss'>
