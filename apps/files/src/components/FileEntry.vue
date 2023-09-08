@@ -36,7 +36,6 @@
 			<a ref="name" v-bind="linkAttrs" @click="execDefaultAction">
 				<!-- Icon or preview -->
 				<span class="files-list__row-icon">
-					aaaa
 					<FolderIcon v-if="source.type === 'folder'" />
 
 					<!-- Decorative image, should not be aria documented -->
@@ -271,6 +270,7 @@ export default Vue.extend({
 		},
 
 		linkAttrs() {
+			console.log(this)
 			if (this.enabledDefaultActions.length > 0) {
 				
 				const action = this.enabledDefaultActions[0]
