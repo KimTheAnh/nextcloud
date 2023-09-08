@@ -57,6 +57,7 @@ p($theme->getTitle());
 		</div>
 
 		<header role="banner" id="header">
+			<div class="">aaaaaa</div>
 			<div class="header-left">
 				<a href="<?php print_unescaped($_['logoUrl'] ?: link_to('', 'index.php')); ?>"
 					aria-label="<?php p($l->t('Go to %s', [$_['logoUrl'] ?: $_['defaultAppName']])); ?>"
